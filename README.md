@@ -1,8 +1,6 @@
 # [phpfmt](https://github.com/phpfmt/fmt) support for Sublime Text 2/3
 
-***[This project follows a Code of Conduct.](https://github.com/phpfmt/code-of-conduct)***
-
-### Installation
+## Installation
 
 #### Requirements
 - **You must have a running copy of PHP on the machine you are running Sublime Text**
@@ -153,9 +151,9 @@ echo "Flipflop";
 <td>
 <pre><code>&lt;?php
 for ($i = 0; $i &lt; 10; $i++) {
-	if ($i%2 == 0) {
-		echo "Flipflop";
-	}
+  if ($i%2 == 0) {
+    echo "Flipflop";
+  }
 }
 </code></pre>
 </td>
