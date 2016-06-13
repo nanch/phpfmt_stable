@@ -1,0 +1,30 @@
+[
+    {"caption": "phpfmt: format now", "command": "fmt_now"},
+    {"caption": "phpfmt: indentation with spaces", "command": "indent_with_spaces"},
+
+    {"caption": "phpfmt: toggle additional transformations", "command": "toggle_pass_menu" },
+    {"caption": "phpfmt: toggle excluded transformations", "command": "toggle_exclude_menu" },
+
+    {"caption": "phpfmt: toggle skip execution when .php.tools.ini is missing", "command": "toggle", "args": {"option":"skip_if_ini_missing"}},
+
+    {"caption": "phpfmt: toggle autocomplete", "command": "toggle", "args": {"option":"autocomplete"}},
+    {"caption": "phpfmt: toggle dependency autoimport", "command": "toggle", "args": {"option":"autoimport"}},
+    {"caption": "phpfmt: toggle format on save", "command": "toggle", "args": {"option":"format_on_save"}},
+
+    {"caption": "phpfmt: toggle PSR1 - Class and Methods names", "command": "toggle", "args": {"option":"psr1_naming"}},
+    {"caption": "phpfmt: toggle PSR1", "command": "toggle", "args": {"option":"psr1"}},
+    {"caption": "phpfmt: toggle PSR2", "command": "toggle", "args": {"option":"psr2"}},
+    {"caption": "phpfmt: analyse this", "command": "analyse_this"},
+    {"caption": "phpfmt: build autocomplete database", "command": "build_oracle"},
+    {"caption": "phpfmt: getter and setter (camelCase)", "command": "sgter_camel"},
+    {"caption": "phpfmt: getter and setter (Go)", "command": "sgter_go"},
+    {"caption": "phpfmt: getter and setter (snake_case)", "command": "sgter_snake"},
+    {"caption": "phpfmt: generate PHPDoc block", "command": "generate_phpdoc"},
+    {"caption": "phpfmt: look for .php.tools.ini", "command": "toggle", "args": {"option":"readini"}},
+    {"caption": "phpfmt: reorganize content of class", "command": "order_method"},
+
+    {"caption": "phpfmt: enable/disable additional transformations", "command": "toggle_pass_menu" },
+    {"caption": "phpfmt: troubleshoot information", "command": "debug_env"},
+
+    {"caption": "phpfmt: update PHP binary path", "command": "update_php_bin"}
+]

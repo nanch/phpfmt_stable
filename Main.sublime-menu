@@ -1,0 +1,52 @@
+[
+    {
+        "mnemonic": "n",
+        "caption": "Preferences",
+        "id": "preferences",
+        "children": [
+            {
+                "mnemonic": "P",
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "phpfmt",
+                        "children": [
+                            {
+                                "caption": "Settings – Default",
+                                "args": {
+                                    "file": "${packages}/phpfmt/phpfmt.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "args": {
+                                    "file": "${packages}/User/phpfmt.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "args": {
+                                    "file": "${packages}/phpfmt/Default.sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "args": {
+                                    "file": "${packages}/User/Default.sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "-"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+php.fmt
+=======
+
+
+Hi,
+
+
+Thanks for using sublime-phpfmt. I use it almost everyday and I take care of it as one of the most important tools I have. I am not alone in using it, I know you are using it too.
+
+I want to issue a major release removing unnecessary features, refactoring the plugin code and improving performance wherever is possible.
+
+In order to do that, I need your help. Please, fill this survey in which I will ask you what is that you use or do not use.
+
+http://goo.gl/forms/kNzIeqnG4L
+
+
+Thanks,
+@dericofilho
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

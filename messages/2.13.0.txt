@@ -1,0 +1,29 @@
+php.fmt
+=======
+
+Somewhere in the world, 31 March,
+
+	Thank you for upgrading.
+
+	Phpfmt was a nice idea but after lengthy debate with the user base,
+I came to understand that this actually works as training wheels on a bike
+- developers should always be responsible and format their code manually.
+
+	Therefore, sublime-phpfmt will phase out feature per feature until
+you all learn to format code by yourselves.
+
+	The very first feature that I am removing now is "phpfmt: toggle format
+on save".
+
+	I hope everyone learns from this amazing tool.
+
+
+Regards,
+The Author
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

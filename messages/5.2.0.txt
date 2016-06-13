@@ -1,0 +1,46 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+New feature added in configuration file:
+{
+	"passes": ["OrganizeClass"],
+}
+
+// From
+class A {
+	public function d(){}
+	protected function b(){}
+	private $a = "";
+	private function c(){}
+	public function a(){}
+	public $b = "";
+	const B = 0;
+	const A = 0;
+}
+
+// To
+class A {
+	const A = 0;
+
+	const B = 0;
+
+	public $b = "";
+
+	private $a = "";
+
+	public function a(){}
+
+	public function d(){}
+
+	protected function b(){}
+
+	private function c(){}
+}
+
+---
+
+- If you find anything wrong with this update, please report an issue at
+https://github.com/phpfmt/php.tools/issues
+

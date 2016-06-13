@@ -1,0 +1,20 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+Introducing PHP 5.5 compatibility mode.
+
+Activate it through command palette:
+`phpfmt: toggle PHP 5.5 compatibility mode`.
+
+
+This is a backwards compatible mode with PHP 5.5 - however no further
+improvements will be available in it.
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

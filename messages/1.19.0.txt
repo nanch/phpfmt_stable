@@ -1,0 +1,46 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+New feature added in command palette:
+"phpfmt: toggle old style constructor update"
+
+From:
+class A {
+	function wrongconstructorname(){
+
+	}
+}
+
+To:
+class A {
+	function __construct(){
+
+	}
+}
+
+
+New experimental feature added in command palette:
+"phpfmt: generate PHPDoc block"
+
+From:
+function FuncName(Type $a){
+	return 1;
+}
+
+To:
+/**
+ * @param Type $a
+ * @return int
+ */
+function FuncName(Type $a){
+	return 1;
+}
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

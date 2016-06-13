@@ -1,0 +1,27 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+New feature added in command palette:
+"phpfmt: toggle word wrap (80 columns)"
+
+From:
+<?php
+// Column
+// 1...........80
+echo $very, $long, $line;
+
+To:
+<?php
+// Column
+// 1...........80
+echo $very, $long
+	 , $line;
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

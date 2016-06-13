@@ -1,0 +1,77 @@
+php.fmt
+=======
+
+Thank you for upgrading. This is an important fix for OrderMethod and
+OrderMethodVisibility.
+
+In previous releases, the ordering of methods did not drag along
+T_DOC_COMMENTS of methods. Thus:
+
+// From:
+class A {
+	/**
+	 * comment for D
+	 */
+	public function d(){}
+	/**
+	 * comment for B
+	 */
+	protected function b(){}
+	/**
+	 * comment for C
+	 */
+	private function c(){}
+	/**
+	 * comment for A
+	 */
+	public function a(){}
+}
+
+// Wrongly corrected to
+class A {
+	/**
+	 * comment for D
+	 */
+	public function a() {}
+	/**
+	 * comment for B
+	 */
+	public function d() {}
+	/**
+	 * comment for C
+	 */
+	protected function b() {}
+	/**
+	 * comment for A
+	 */
+	private function c() {}
+}
+
+
+With this fix, it will correctly reorder to:
+
+class A {
+	/**
+	 * comment for A
+	 */
+	public function a() {}
+	/**
+	 * comment for D
+	 */
+	public function d() {}
+	/**
+	 * comment for B
+	 */
+	protected function b() {}
+	/**
+	 * comment for C
+	 */
+	private function c() {}
+}
+
+
+---
+
+- If you find anything wrong with this update, please report an issue at
+https://github.com/phpfmt/php.tools/issues
+

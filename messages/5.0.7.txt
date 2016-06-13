@@ -1,0 +1,21 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+
+php.fmt now is under the management of https://github.com/phpfmt/
+
+This is the first step to handover this plugin to the community.
+
+Eventually, I shall stop altogether providing updates and fixes. So, if
+you use and care about this plugin, please get involved in the
+development of https://github.com/phpfmt/php.tools and
+https://github.com/phpfmt/sublime-phpfmt.
+
+
+---
+
+- If you find anything wrong with this update, please report an issue at
+https://github.com/phpfmt/php.tools/issues
+

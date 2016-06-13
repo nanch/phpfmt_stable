@@ -1,0 +1,10 @@
+# Support for PHP 5.5 has been removed.
+
+Due to the fact that PHP 5.5 support relied on a very old version of phpfmt,
+this package can no longer guarantee that user experience with this mode will
+remain of high quality. More importantly, PHP 5.5 is almost end-of-life and
+will stop receiving security updates in July 2016.
+
+If you run PHP 5.5 on your local server, the righ solution for you is to install
+a standalone version of PHP 7 in a different folder, and point the plugin to
+this binary.

@@ -1,0 +1,50 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+New feature added in command palette:
+"phpfmt: toggle toggle laravel style (experimental)"
+
+From:
+<?php
+namespace NS1;
+class A {
+	function methodName(){
+		if ($a) {
+			noop();
+		} elseif ($a) {
+			noop();
+		} else {
+			noop();
+		}
+	}
+}
+
+To:
+<?php namespace NS1;
+class A {
+	function methodName()
+	{
+		if ($a)
+		{
+			noop();
+		}
+		elseif ($a)
+		{
+			noop();
+		}
+		else
+		{
+			noop();
+		}
+	}
+}
+
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

@@ -1,0 +1,7 @@
+php.fmt
+=======
+
+- If you find anything wrong with this update, or if you have any difficulty in making it work, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

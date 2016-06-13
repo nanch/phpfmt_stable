@@ -1,0 +1,18 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+PHP 5.5 reached end-of-life and is no longer supported.
+
+Please, upgrade your local PHP installation to PHP 5.6 or newer.
+
+If you do not want to upgrade your local PHP installation,
+please consider installing PHPCS with PHP-CS-Fixer.
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

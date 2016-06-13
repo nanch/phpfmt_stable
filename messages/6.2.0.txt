@@ -1,0 +1,8 @@
+Thanks for upgrading this plugin.
+
+As announced in v5.0.7, as of this release, I shall keep occasional updates both
+for this plugin and its engine. Therefore, I call the community of their users to
+support both with Pull Requests and answering at Issue Tracker.
+
+I am ready to support anyone willing to step up to become contributors of these
+projects. Just ping @ccirello in Issue Tracker.

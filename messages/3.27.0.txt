@@ -1,0 +1,29 @@
+php.fmt
+=======
+
+Thank you for upgrading.
+
+New feature added in configuration file:
+{
+	"passes": ["AutoSemicolon"],
+}
+
+
+//From:
+echo $a
+
+echo $a + $b
+
+// To
+echo $a;
+
+echo $a + $b;
+
+Note: this feature is still in beta. Use it carefully.
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+

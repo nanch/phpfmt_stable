@@ -1,0 +1,3 @@
+Autocomplete and autoimport need building a database of terms.
+Please, fill in below with the proper location for this database.
+Keep in mind that the best location is always the root of the project, therefore limiting the size and ensuring speed.

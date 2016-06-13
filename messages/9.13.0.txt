@@ -1,0 +1,26 @@
+New feature added in configuration file:
+{
+	"passes": ["PHPDocTypesToFunctionTypehint"],
+}
+
+// From:
+/**
+ * @param int $a
+ * @param int $b
+ * @return int
+ */
+function abc($a = 10, $b = 20, $c) {
+
+}
+
+// To:
+/**
+ * @param int $a
+ * @param int $b
+ * @return int
+ */
+function abc(int $a = 10, int $b = 20, $c): int {
+
+}
+
+

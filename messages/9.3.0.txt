@@ -1,0 +1,4 @@
+Thanks for upgrading this plugin.
+
+OrderMethod and OrderMethodAndVisibility are deprecated in favor of OrganizeClass.
+In the next major release, they will be automatically replaced with OrganizeClass.

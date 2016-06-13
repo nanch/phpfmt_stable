@@ -1,0 +1,27 @@
+php.fmt
+=======
+
+Call to arms:
+
+(Un)fortunatelly, I have been coding less and less in PHP. I understand
+there is a small community around both sublime-phpfmt and php.tools.
+
+Thus, I am calling all people interested in these tools to help me to
+keep them alive.
+
+Right now, I do not have any documentation to help you to provide support
+and to propose PRs. But as soon as I see people taking action, I shall
+help them to write such documentation and implement improvements on these
+tools.
+
+Eventually, I plan to move both projects to an independent account and
+to have it run by a maintenance team.
+
+Please! Take action and support these projects.
+
+---
+
+- If you find anything wrong with this update, please report an issue at https://github.com/dericofilho/sublime-phpfmt/issues
+
+- If you like what this plugin does for you, please consider starring at https://github.com/dericofilho/sublime-phpfmt or https://github.com/dericofilho/php.tools
+
