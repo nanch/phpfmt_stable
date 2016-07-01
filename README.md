@@ -1,4 +1,4 @@
-# [phpfmt](https://github.com/nanch/phpfmt_stable) support for Sublime Text 2/3
+# [phpfmt](https://github.com/nanch/phpfmt_stable) support for Sublime Text 3
 
 ## Installation
 
