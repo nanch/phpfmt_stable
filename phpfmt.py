@@ -152,9 +152,9 @@ def dofmt(eself, eview, sgter = None, src = None, force = False):
                 p = subprocess.Popen(cmd_lint, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=False, startupinfo=startupinfo)
             else:
                 p = subprocess.Popen(cmd_lint, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=False)
-            p.stdin.write(src.encode('utf-8'))
+            src = src.encode('utf-8')
 
-        lint_out, lint_err = p.communicate()
+        lint_out, lint_err = p.communicate(src)
         lintret = p.returncode
 
     if(lintret==0):
